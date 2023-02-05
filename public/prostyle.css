@@ -1,0 +1,61 @@
+.head{
+min-height:20px;
+background:blue;
+}
+.box
+{
+	min-height:100px;
+	background:default;
+}
+.box1
+{
+	min-height:400px;
+	background-image:url('photo/7.jpg');
+	background-repeat:no-repeat;
+	background-size:100% 100%
+
+}
+.box2
+{
+	min-height:600px;
+}
+.box3
+{
+	min-height:400px;
+
+}
+.box4
+{
+	min-height:600px;
+	background:#f2f3f4;
+}
+.box5
+{
+	min-height:500px;
+	background:skyblue;
+}
+.box6
+{
+	min-height:450px;
+	background:#f2f3f4;
+}
+.box7
+{
+	min-height:100px;
+	background:black;
+}
+
+
+#btn1{
+border:none;
+
+transition:1s;
+margin-left:5px;
+}
+#btn1:hover
+{
+background:blue;
+border-radius: 10px;
+}
+
+input::placeholder{color:blue;padding-top:3px}
